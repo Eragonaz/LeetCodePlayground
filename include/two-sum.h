@@ -3,6 +3,15 @@
 
 using namespace std;
 
+
+ostream& operator<< (ostream& stream, const vector<int>& vec) {
+    for (const int& i : vec) {
+        stream << i  << ", ";
+    }
+    stream << "\n";
+    return stream;
+}
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {

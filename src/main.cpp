@@ -1,6 +1,10 @@
 #include <iostream>
+#include "template.h"
 
 int main(int argc, char *argv[])
 {
-	std::cout << "Hello world!" << std::endl;
+	Solution h;
+
+	
+
 }

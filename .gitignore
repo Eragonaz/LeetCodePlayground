@@ -1,0 +1,8 @@
+# ignore all logs
+*.log
+
+# ignore all objs
+*.o 
+
+# ignores executable
+output/

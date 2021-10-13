@@ -10,10 +10,10 @@
 
 using namespace std;
 
-#define __SOLUTION_VERSION 1
+#define __SOLUTION_VERSION 0
 
 
-#if __SOLUTION_VERSION == 0:
+#if __SOLUTION_VERSION == 0
 
 // Title
 // Short desc
@@ -33,7 +33,7 @@ ostream& operator<<(ostream& stream, filler) {
 
 
 
-#elif __SOLUTION_VERSION == 1:
+#elif __SOLUTION_VERSION ==1
 
 // Title
 // Short desc
@@ -53,7 +53,7 @@ ostream& operator<<(ostream& stream, int a) {
 
 
 
-#elif __SOLUTION_VERSION == 2:
+#elif __SOLUTION_VERSION == 2
 
 // Title
 // Short desc

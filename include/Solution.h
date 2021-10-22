@@ -26,7 +26,7 @@ public:
 };
 
 
-ostream& operator<<(ostream& stream, filler) {
+ostream& operator<<(ostream& stream, int filler) {
 
     return stream;
 }
@@ -46,7 +46,7 @@ public:
 };
 
 
-ostream& operator<<(ostream& stream, int a) {
+ostream& operator<<(ostream& stream, int filler) {
     
     return stream;
 }
@@ -66,7 +66,7 @@ public:
 };
 
 
-ostream& operator<<(ostream& stream, filler) {
+ostream& operator<<(ostream& stream, int filler) {
     
     return stream;
 }

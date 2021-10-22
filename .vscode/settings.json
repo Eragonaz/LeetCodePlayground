@@ -1,5 +1,13 @@
 {
     "files.associations": {
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "memory": "cpp",
+        "array": "cpp",
+        "algorithm": "cpp",
+        "iosfwd": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
 }

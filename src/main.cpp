@@ -1,12 +1,11 @@
 #include <iostream>
-#include "Palindrome Number.h"
+#include "ValidParentheses.h"
 
 int main(int argc, char *argv[])
 {
 	Solution h;
 
-
-	cout << h.isPalindrome(1513151) << endl;
+	cout << h.isValid("[()]") << endl;
 
 	return 0;
 }
